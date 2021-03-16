@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo-and-links {
+  background: rgb(255, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo{
+  margin-right: 5em;
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  background: rgb(200, 200, 200);
+  border-radius: 1em;
+  margin: .3em;
+
+  font-size: 1.8em;
+  padding: .2em .4em;
+}
