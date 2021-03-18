@@ -1,3 +1,7 @@
+*{
+  outline: none;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -20,10 +24,13 @@
 }
 
 .nav-button {
-  background: rgb(200, 200, 200);
+  background: rgb(196, 196, 196);
   border-radius: 1em;
-  margin: .3em;
+  border: none;
+  margin: .1em;
+  color: rgb(20, 20, 20);
 
-  font-size: 1.8em;
-  padding: .2em .4em;
+  width: 1.6em;
+  height: 1.6em;
+  font-size: 1.5em;
 }

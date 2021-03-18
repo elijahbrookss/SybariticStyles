@@ -21,7 +21,12 @@ const Header = () => {
         <button className='nav-button'>
           <i className="fab fa-instagram"></i>
         </button>
-
+        <button className='nav-button'>
+          <i className="fab fa-twitter"></i>
+        </button>
+        <button className='nav-button'>
+          <i className="fas fa-history"></i>
+        </button>
       </div>
     </div>
   )
