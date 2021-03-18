@@ -27,7 +27,15 @@ const Header = () => {
         <button className='nav-button'>
           <i className="fas fa-history"></i>
         </button>
+        <button className='search nav-button'>
+          <i className="fas fa-search"></i>
+        </button>
+        <button className='cart nav-button'>
+          <i className="fas fa-shopping-cart"></i>
+          <span> 1 </span>
+        </button>
       </div>
+
     </div>
   )
 }

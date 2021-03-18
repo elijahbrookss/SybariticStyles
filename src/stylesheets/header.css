@@ -1,21 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+
 *{
   outline: none;
+}
+
+body{
+    background: rgb(253, 250, 250);
+}
+
+.App{
+  margin: 1.5em;
+  font-family: 'Crushed', cursive;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-}
-
-.nav-logo-and-links {
-  background: rgb(255, 0, 0);
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.nav-logo-and-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 550;
+}
+
+.nav-links a{
+  margin-left: 1.6em;
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+
 .nav-logo{
-  margin-right: 5em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  margin-right: 6em;
+  color: rgb(20, 20, 20);
 }
 
 .nav-buttons{
@@ -24,13 +47,31 @@
 }
 
 .nav-button {
-  background: rgb(196, 196, 196);
+  /* background-color: rgb(196, 196, 196); */
   border-radius: 1em;
-  border: none;
-  margin: .1em;
-  color: rgb(20, 20, 20);
+  border-width:thin;
+  border-style: solid;
+  /* border-color: rgba(0, 0, 0, .8); */
 
-  width: 1.6em;
-  height: 1.6em;
-  font-size: 1.5em;
+  margin: .1em;
+  color: rgb(40, 40, 40);
+  font-weight: lighter;
+
+  width: 2em;
+  height: 2em;
+  font-size: 1.3em;
+}
+
+.search{
+  margin-left: .6em;
+}
+
+.cart {
+  width: 3.7em;
+  background: rgb(255, 180, 180);
+
+}
+
+.cart span{
+    font-size: .9em;
 }
