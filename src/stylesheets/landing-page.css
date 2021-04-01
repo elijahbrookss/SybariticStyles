@@ -1,0 +1,23 @@
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.landing-page{
+  margin-top: 2em;
+}
+
+.carousel-item{
+  height: 700px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
