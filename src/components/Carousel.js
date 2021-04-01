@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel'
+import carouselImage from '../assets/camille-bluedress.jpg';
 
 const CarouselComponent = () => {
   return(
@@ -6,7 +7,7 @@ const CarouselComponent = () => {
       <Carousel>
         <Carousel.Item>
            <img
-             src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4qsM90UUCDo/v0/1000x-1.jpg"
+             src = {carouselImage}
              alt="First slide"
            />
 
@@ -19,7 +20,7 @@ const CarouselComponent = () => {
 
         <Carousel.Item>
             <img
-              src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/popular-clothing-brands-1591993508.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+              src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4qsM90UUCDo/v0/1000x-1.jpg"
               alt="Second slide"
             />
 

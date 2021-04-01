@@ -7,7 +7,7 @@ import CarouselComponent from '../components/Carousel';
 //images
 import image1 from '../assets/camille-bluedress-standing-2.jpg';
 import image2 from '../assets/camille-white-sitting.jpg';
-import image3 from '../assets/camille-cream-sitting-chair.jpg';
+import image3 from '../assets/camille-standing-white-2.jpg';
 
 // StyleSheet
 import '../stylesheets/landing-page.css';
